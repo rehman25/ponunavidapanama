@@ -1,0 +1,35 @@
+.HeaderCol{
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+    background-color: #f4e0d8;
+    box-shadow: 0 2px 8px -2px #d0d0d0;
+    transition: background-color .1s linear;
+    position: fixed;
+}
+
+.HeaderCol .Link{
+    color: #b66d7d;
+    line-height: 1.5;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1;
+    text-decoration: none !important;
+    font-size:  1.3369045714vw;
+    font-weight: 600;
+    padding: 0px 10px;
+    margin: 12px 20px;
+
+}
+
+.HeaderLogo{
+    display: flex;
+    height: 25vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
